@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Mundo JokerSama</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <nav>
+                <div class="logo" style="display: flex; align-items: center;">
+                    <img src="https://wiki.new4th.com/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FfrBHL1EAEu4i3O2Z8MN6%2Fblobs%2FjsFN42OyqUhoVWdJ0bKZ%2FJokerSama.png&width=768&dpr=4&quality=100&sign=3adf163d&sv=2" alt="JokerSama" style="width: 50px; height: 50px; border-radius: 50%; margin-right: 15px;">
+                    <h1>JokerSama</h1>
+                </div>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="language-selector">
+                    <button id="lang-toggle" class="lang-btn">
+                        <span class="fi fi-br"></span>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Bem-vindo ao Meu Mundo Digital JokerSama</h2>
+                    <p>Transformamos servidores privados em experiências únicas com criatividade e técnica.</p>
+                    <a href="#" class="btn-primary">Descubra Mais</a>
+                </div>
+            </section>
+
+            <!-- New About Section -->
+            <section id="sobre" class="about-section">
+                <div class="about-container">
+                    <h2>Sobre Nós</h2>
+                    <div class="about-content">
+                        <div class="about-image">
+                            <img src="https://dc592.4shared.com/img/x2d8A_-ujq/s24/196efb1e7c0/JokerSama_News?async&rand=0.20961205610072708">
+                        </div>
+                        <div class="about-text">
+                            <h3>Transformamos suas ideias em um servidor exclusivo!</h3>
+                            <p>Somos um time que ama Ragnarök e criar coisas novas! Fazemos servidores personalizados para deixar seu jogo incrível. Juntamos criatividade e conhecimento técnico para transformar suas ideias em um mundo único - onde cada NPC, mapa e regra do jogo é feito com cuidado para você viver aventuras inesquecíveis!</p>
+                            
+                            <div class="about-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-rocket"></i>
+                                    <h4>Inovação</h4>
+                                    <p>Sempre buscando as melhores ideias para deixar seu servidor único e moderno!"</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <h4>Colaboração</h4>
+                                    <p>Trabalhamos em equipe com você para entender suas ideias e criar seu servidor!</p>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h4>Resultados</h4>
+                                    <p>Focados em fazer um Ragnarök que realmente diverte e surpreende!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- New Services Section with Modals -->
+            <section id="servicos" class="services">
+                <h2>Nossos Serviços</h2>
+                <div class="services-grid">
+                    <div class="service-card" data-modal="design-modal">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Design Criativo</h3>
+                        <p>Criamos mapas, interfaces e NPCs visuais únicos para seu servidor.</p>
+                    </div>
+                    <div class="service-card" data-modal="web-modal">
+                        <i class="fas fa-code"></i>
+                        <h3>Desenvolvimento de Sistemas</h3>
+                        <p>Programamos sistemas exclusivos para seu RO.</p>
+                    </div>
+                    <div class="service-card" data-modal="marketing-modal">
+                        <i class="fas fa-bullhorn"></i>
+                        <h3>Divulgação</h3>
+                        <p>Ajudamos a promover seu servidor! </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="portfolio">
+                <h2>Nosso Portfólio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-modal="portfolio-modal-1">
+                        <img src="https://wiki.new4th.com/~gitbook/image?url=https%3A%2F%2F3030316634-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfrBHL1EAEu4i3O2Z8MN6%252Fuploads%252F6HFTPCFo7v10B958LJbA%252FMinerarNew4th.png%3Falt%3Dmedia%26token%3D2a829512-a481-4fae-a447-1b9414aceecd&width=768&dpr=4&quality=100&sign=bdbe0a1d&sv=2" alt="Projeto 1">
+                        <div class="portfolio-overlay">
+                            <h3>Sistema Miner</h3>
+                            <p>Sistema de Mineração no Servidor New4th.</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-modal="portfolio-modal-2">
+                        <img src="https://wiki.new4th.com/~gitbook/image?url=https%3A%2F%2F3030316634-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfrBHL1EAEu4i3O2Z8MN6%252Fuploads%252FJOgt2ME8wsCXtk9V5maH%252FForjadraco.png%3Falt%3Dmedia%26token%3Dd5d11bff-ec44-4b24-9b8d-747ae7068fc2&width=768&dpr=4&quality=100&sign=bf6cae83&sv=2" alt="Projeto 2">
+                        <div class="portfolio-overlay">
+                            <h3>Sistema Draco</h3>
+                            <p>Sistema de economia dinâmica</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-modal="portfolio-modal-3">
+                        <img src="https://wiki.new4th.com/~gitbook/image?url=https%3A%2F%2F3030316634-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfrBHL1EAEu4i3O2Z8MN6%252Fuploads%252FNyczsBlfYu7VosCl58eT%252FMarketPlace.png%3Falt%3Dmedia%26token%3D0dd3ad32-c83c-4313-81d0-6cc5ab6fad48&width=768&dpr=4&quality=100&sign=1e112007&sv=2" alt="Projeto 3">
+                        <div class="portfolio-overlay">
+                            <h3>Marketplace</h3>
+                            <p>Marketplace – Comércio Fácil e Seguro!</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-modal="portfolio-modal-4">
+                        <img src="https://wiki.new4th.com/~gitbook/image?url=https%3A%2F%2F3030316634-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FfrBHL1EAEu4i3O2Z8MN6%252Fuploads%252Ff8aE2M1Nxmq5rHk5wpKM%252FPescariaNew4th.png%3Falt%3Dmedia%26token%3D0be5650c-5eaa-4a4c-8471-28e5f3ba5f78&width=768&dpr=4&quality=100&sign=90e8af72&sv=2" alt="Projeto 4">
+                        <div class="portfolio-overlay">
+                            <h3>Sistema Pesca
+</h3>
+                            <p>Sistema de Pesca do New4th.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Web Project Preview Section -->
+            <section id="web-previews" class="web-previews">
+                <h2>Pré-Visualização de Projetos Web</h2>
+                <div class="preview-container">
+                    <div class="preview-grid">
+                        <div class="preview-item" data-fullscreen-src="https://wiki.new4th.com/">
+                            <h3>Wiki - New4th</h3>
+                            <div class="preview-wrapper">
+                                <iframe 
+                                    src="https://wiki.new4th.com/" 
+                                    frameborder="0" 
+                                    allowfullscreen
+                                    title="Sistema Miner Preview">
+                                </iframe>
+                            </div>
+                            <div class="preview-details">
+                                <p>Projeto New4th! (WIKI)</p>
+                                <a href="https://wiki.new4th.com/" target="_blank" class="btn-preview">Visitar</a>
+                            </div>
+                        </div>
+                        <div class="preview-item" data-fullscreen-src="https://jokersamabr.github.io/new4th-projeto/">
+                            <h3>Flappy Ring</h3>
+                            <div class="preview-wrapper">
+                                <iframe 
+                                    src="https://jokersamabr.github.io/new4th-projeto/" 
+                                    frameborder="0" 
+                                    allowfullscreen
+                                    title="Projeto Web 2 Preview">
+                                </iframe>
+                            </div>
+                            <div class="preview-details">
+                                <p>Projeto Flappy Ring</p>
+                                <a href="https://jokersamabr.github.io/new4th-projeto/" target="_blank" class="btn-preview">Visitar</a>
+                            </div>
+                        </div>
+                        <div class="preview-item" data-fullscreen-src="https://jokersamabr.github.io/wtto-projeto/">
+                            <h3>WTTO</h3>
+                            <div class="preview-wrapper">
+                                <iframe 
+                                    src="https://jokersamabr.github.io/wtto-projeto/" 
+                                    frameborder="0" 
+                                    allowfullscreen
+                                    title="Projeto Web 3 Preview">
+                                </iframe>
+                            </div>
+                            <div class="preview-details">
+                                <p>Projeto Game WTTO</p>
+                                <a href="https://jokersamabr.github.io/wtto-projeto/" target="_blank" class="btn-preview">Visitar</a>
+                            </div>
+                        </div>
+                        <div class="preview-item" data-fullscreen-src="https://new4th.com/commingsoon">
+                            <h3>New4th</h3>
+                            <div class="preview-wrapper">
+                                <iframe 
+                                    src="https://new4th.com/commingsoon" 
+                                    frameborder="0" 
+                                    allowfullscreen
+                                    title="Projeto Web 4 Preview">
+                                </iframe>
+                            </div>
+                            <div class="preview-details">
+                                <p>Projeto New4th</p>
+                                <a href="https://new4th.com/commingsoon" target="_blank" class="btn-preview">Visitar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fullscreen Modal for Web Previews -->
+                <div id="fullscreen-preview-modal" class="modal fullscreen-preview-modal">
+                    <div class="modal-content fullscreen-content">
+                        <span class="close-modal fullscreen-close">&times;</span>
+                        <div class="fullscreen-iframe-wrapper">
+                            <iframe 
+                                id="fullscreen-iframe" 
+                                src="" 
+                                frameborder="0" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- YouTube Video Section -->
+            <section id="videos" class="youtube-videos">
+                <h2>Vídeos Promocionais</h2>
+                <div class="video-slider-container">
+                    <div class="main-video">
+                        <div class="video-wrapper">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/sddIn1SdCLI" title="Main Promotional Video" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="video-thumbnails">
+                        <div class="video-thumb active" data-video-id="sddIn1SdCLI">
+                            <img src="https://img.youtube.com/vi/sddIn1SdCLI/mqdefault.jpg" alt="Video 1">
+                        </div>
+                        <div class="video-thumb" data-video-id="Ofe9mqoT73U">
+                            <img src="https://img.youtube.com/vi/Ofe9mqoT73U/mqdefault.jpg" alt="Video 2">
+                        </div>
+                        <div class="video-thumb" data-video-id="3-RAbmLxtcQ">
+                            <img src="https://img.youtube.com/vi/3-RAbmLxtcQ/mqdefault.jpg" alt="Video 3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contato" class="contact-section">
+                <div class="contact-container">
+                    <h2>Fale Conosco</h2>
+                    <div class="comment-form">
+                        <input type="text" id="comment-name" placeholder="Seu Nome" required>
+                        <textarea id="comment-message" placeholder="Deixe sua mensagem..." required></textarea>
+                        <button id="submit-comment">Enviar Pergunta</button>
+                    </div>
+                    <div id="comments-container" class="comments-container">
+                        <!-- Comments will be dynamically added here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Image Modals -->
+            <div id="design-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/400x300" alt="Design Criativo">
+                    <h2>Design Criativo</h2>
+                    <p>Criamos mapas, interfaces e NPCs visuais únicos para seu servidor. Cada detalhe é personalizado para imersão total no jogo!</p>
+                </div>
+            </div>
+            <div id="web-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/400x300" alt="Desenvolvimento Web">
+                    <h2>Desenvolvimento de Sistemas</h2>
+                    <p>Programamos sistemas exclusivos para seu RO: balanceamento, quests, itens e mecânicas customizadas - tudo otimizado para diversão garantida!</p>
+                </div>
+            </div>
+            <div id="marketing-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/400x300" alt="Marketing Digital">
+                    <h2>Divulgação</h2>
+                    <p>Ajudamos a promover seu servidor! Criamos estratégias para atrair jogadores e manter sua comunidade ativa e engajada.</p>
+                </div>
+            </div>
+
+            <!-- Portfolio Modals -->
+            <div id="portfolio-modal-1" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 1 Detalhes">
+                    <h2>Sistema Miner</h2>
+                    <p>Veja aqui como funciona o Sistema de Mineração no Servidor New4th.</p>
+                    <div class="modal-details">
+                        <p><strong>Serviços:</strong> Desenvolvimento de Sistemas</p>
+                        <p><strong>Cliente:</strong> New4th</p>
+                        <p><strong>Ano:</strong> 2025</p>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-modal-2" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 2 Detalhes">
+                    <h2>Sistema Draco</h2>
+                    <p>Este sistema foi projetado para oferecer uma economia dinâmica</p>
+                    <div class="modal-details">
+                        <p><strong>Serviços:</strong> Desenvolvimento de Sistemas</p>
+                        <p><strong>Sistema:</strong> Completo</p>
+                        <p><strong>Ano:</strong> 2024</p>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-modal-3" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 3 Detalhes">
+                    <h2>Marketplace</h2>
+                    <p>O Marketplace do New4th foi criado para facilitar o comércio entre os jogadores</p>
+                    <div class="modal-details">
+                        <p><strong>Serviços:</strong> Completo</p>
+                        <p><strong>Sistema:</strong> Web</p>
+                        <p><strong>Ano:</strong> 2025</p>
+                    </div>
+                </div>
+            </div>
+            <div id="portfolio-modal-4" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <img src="https://via.placeholder.com/600x400" alt="Projeto 4 Detalhes">
+                    <h2>Sistema Pesca
+</h2>
+                    <p>Explore as emocionantes possibilidades de pesca com uma variedade de iscas, varas e equipamentos para aprimorar sua experiência. </p>
+                    <div class="modal-details">
+                        <p><strong>Serviços:</strong> Desenvolvimento de Sistemas</p>
+                        <p><strong>Sistema:</strong> Script</p>
+                        <p><strong>Ano:</strong> 2022</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="social-links">
+                <a href="https://ko-fi.com/ignitionservers" class="social-icon">ko-fi</a>
+            </div>
+            <p>&copy; 2025 Meu Mundo. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+    <div class="floating-social-buttons">
+        <a href="https://discord.com/users/181027416523800576" class="social-button discord"><i class="fab fa-discord"></i></a>
+        <a href="https://www.facebook.com/groups/new4th" class="social-button facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com/@New4thProject" class="social-button youtube"><i class="fab fa-youtube"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
